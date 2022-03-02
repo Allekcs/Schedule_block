@@ -13,5 +13,15 @@ html, body{
 }
 
 .group_data{
-    width:  33px !important;
+    width:  66px;
+    height: 180px;
+
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+}
+
+.more{
+    border: 1px solid #00B4B5;
+    box-sizing: border-box;
+    border-radius: 12px;
 }
