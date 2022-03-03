@@ -1,27 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 html, body{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .block{
     width:  312px;
     height: 180px;
 
+    display: flex;
+
     box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 0.12);
     border-radius: 12px;
 }
 
-.group_data{
-    width:  66px;
+.group_type{
+    width:  34px;
     height: 180px;
 
+    margin: 0px;
+
+    border-radius: 12px 0px 0px 12px;
+
+    background: #0A0B0E;
+
     writing-mode: vertical-rl;
+}
+
+.group_type p{
+    margin: 5px;
+
     transform:rotate(180deg);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #F8F8F8;
+}
+
+.group_data{
+    width:  279px;
+    height: 180px;
+}
+
+.info{
+    margin-top: 24px;
+    margin-left: 38px;
+}
+
+.name_group{
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    letter-spacing: 0.15px;
+
+    color: #0A0B0E;
+}
+
+.time_group{
+    margin: 0px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    letter-spacing: 0.1px;
+
+    color: #4A4A4A;
+
 }
 
 .more{
+    margin-top: 26px;
+    margin-left: 38px;
+}
+
+.more button{
+    width: 219px;
+    height: 48px;
+
     border: 1px solid #00B4B5;
     box-sizing: border-box;
     border-radius: 12px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+
+    background: #FFFFFF;
+    color: #4A4A4A;
 }
